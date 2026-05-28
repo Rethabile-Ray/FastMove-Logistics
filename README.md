@@ -1,3 +1,5 @@
+NB. Check login details below
+
 # FastMove-Logistics
 A multi-tier Jakarta EE enterprise web application for supply chain batch auditing, featuring container-managed security, stateful session analytics, and relational database logging.
 ## 2 Key Features
@@ -14,3 +16,14 @@ A multi-tier Jakarta EE enterprise web application for supply chain batch auditi
 * **Enterprise Resources:** Managed JNDI Data Sources (`jdbc/__default` or custom Connection Pools)
 * **Frontend UI:** HTML5, CSS3, dynamic JavaServer Pages (JSP)
 * **Build Tool:** Ant / NetBeans Web Project Infrastructure
+
+## 🔐 Demo Login Credentials
+
+To test the role-based access control (RBAC) features of this application, use the following pre-configured server realm accounts:
+
+* **Manager Account:**
+  * **Username:** `exec_user`
+  * **Password:** `123`
+* **Standard Employee Account:**
+  * **Username:** `clerk_user`
+  * **Password:** `123`
