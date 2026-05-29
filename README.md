@@ -47,8 +47,8 @@ Under the **Additional Properties** tab, ensure the following key-value pairs ar
 * `url`: `jdbc:derby://localhost:1527/ExamFastMoveLogisticsDB`
 
 ### 2. JDBC Resource (JNDI Mapping)
-Navigate to **JDBC > JDBC Resources** and map the connection pool to the JNDI name expected by the application's `persistence.xml`:
-* **JNDI Name:** `jdbc/fastmoveDS` *(Note: Ensure this matches your project's specific JNDI lookup string)*
+Navigate to **JDBC > JDBC Resources**. The application leverages the server's default data source mapping. Ensure the default resource is actively mapped to your connection pool:
+* **JNDI Name:** `jdbc/__default`
 * **Pool Name:** `DerbyPool`
 
 ### 3. Database Schema Lifecycle
